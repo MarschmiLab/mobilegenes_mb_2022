@@ -27,5 +27,5 @@ vdb-config -i
 prefetch --option file SraAccList.txt
 ```
 Prefetch is a command in the SRA toolkit that downloads sequence files
-- --option file inputs a list of sequence files, i.e. an Accession List
+- for --option file, input a list of sequence files, i.e. an Accession List.
 
