@@ -18,7 +18,7 @@ vdb-config -i
   - Set Location of User Repository to /workdir/myb7/data/MuskegonLake/SRA_data
   - Accepted to "report cloud instance identity"
 
-##Downloading Metagenomic Sequences
+## Downloading Metagenomic Sequences
 
 - Sequences can be found on [NCBI]([url](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=705524))
 - Compile sequences into an Accession List text file using "Send to:"
