@@ -23,7 +23,7 @@ On the new screen:
 
 - Sequences can be found on [NCBI]([url](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=705524))
 - Compile sequences into an Accession List text file using "Send to:"
-- Download sequences with 
+- Download sequences with: 
 ```
 prefetch --option file SraAccList.txt
 ```
