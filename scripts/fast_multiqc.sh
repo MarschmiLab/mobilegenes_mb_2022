@@ -12,6 +12,6 @@ do
 
 	# -o: output directory where multiqc output files will be created
 	# -n: name of output file
-	multiqc fastqc_html/s$number/*${number}*.zip \ #multiqc on each read
+	multiqc fastqc_html/s$number/*${number}*.zip \ #multiqc on each fastq.zip file
 	-o multiqc_html -n ${number}_report.html
 done 
