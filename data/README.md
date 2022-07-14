@@ -7,4 +7,4 @@ Samples were numbered from 91614 to 91629. Each sample had five flow cell lanes,
 
 Following transfer, fastq files were run through md5sum to verify data integrity using md5sum.sh script and tmux session "md5sum"
 
-Quality fastq files were assessed for quality through fastqc and multiqc in fastqc_multiqc.sh shell script
+Quality fastq files were assessed for quality through fastqc and multiqc in fast_multiqc.sh shell script
