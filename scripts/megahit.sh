@@ -7,7 +7,7 @@
 # -m: amount of memory
 # --min-contig-len: minimum length of contig in output
 
-for sample in {91615..91629}
+for sample in {91614..91629}
 do
 	#Go to sample directory
 	cd /workdir/myb7/data/MuskegonLake/qc_seqs/s${sample}
