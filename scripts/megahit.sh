@@ -25,5 +25,3 @@ done
 
 echo "All samples assembled"
 
-# Ex: megahit --12 s91614/trimmomatic_bbduk_dedupe_91614_L003_interleaved.fastq.gz,s91614/trimmomatic_bbduk_dedupe_91614_L004_interleaved.fastq.gz,s91614/trimmomatic_bbduk_dedupe_91614_L005_interleaved.fastq.gz,s91614/trimmomatic_bbduk_dedupe_91614_L006_interleaved.fastq.gz,s91614/trimmomatic_bbduk_dedupe_91614_L007_interleaved.fastq.gz \ 
-# -o megahit_s91614 -t 55 -m 0.45
