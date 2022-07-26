@@ -1,7 +1,7 @@
 #Check integrity of fastq files following transfer
 
 
-# -c: read m5 sums from file and check them
+# -c: read md5 sums from file and check them
 # --quiet: don't print ok messages, only error messages
 mkdir ../qc_seqs/md5sums
 for file in /workdir/myb7/data/MuskegonLake/qc_seqs/s916*/*/*.fastq
