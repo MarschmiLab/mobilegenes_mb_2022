@@ -1,4 +1,6 @@
 #Assess read quality through fastqc and multiqc
+#Mike Bai
+#July 2022
 
 mkdir fastqc_html #Make directory for fastqc outputs
 mkdir multiqc_html #Make directory for multiqc outputs
