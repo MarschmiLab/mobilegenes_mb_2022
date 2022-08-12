@@ -23,7 +23,7 @@ Contigs <- rep(NA, 16)
 
 #Extract N50, L50, and Contig values from file "report.tsv" in folder "combined_reference
 #in metaQUAST output directory for each sample. Add values to dataframe.
-N50_L50_df <- data.frame(Sample, N50_score, L50_score, Fraction, Lakesite, Month, Year, Date)
+N50_L50_df <- data.frame(Sample, N50_score, L50_score, Contigs, Fraction, Lakesite, Month, Year, Date)
 for(i in 91614:91629){
   setwd(paste("/local/workdir/myb7/data/MuskegonLake/quast_results/s",i,"/combined_reference",sep=""))
   df_assembly <- read_tsv("report.tsv", col_names = TRUE)
@@ -60,14 +60,6 @@ c <- ggplot(data = N50_L50_df, mapping = aes(x = Fraction, y = Contigs)) +
   xlab("Fraction") + ylab("Total Number of Contigs") + 
   stat_compare_means(method = "wilcox.test", paired = TRUE, label.x = 1, label.y = 100000) + 
   stat_summary(shape = 8, fun = "mean", color = "red") + theme_gray(base_size = 15) + 
-  scale_fill_manual(values = wes_palette(name = "GrandBudapest2"))
-
-c <- ggplot(data = N50_L50_df, mapping = aes(x = Sample, y = Contigs, fill = Fraction)) +
-  geom_bar(stat = "identity") +
-  labs(
-    x = "Sample",
-    y = "Total Number of Contigs"
-  ) + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_fill_manual(values = wes_palette(name = "GrandBudapest2"))
 
 n
