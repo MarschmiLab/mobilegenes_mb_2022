@@ -1,4 +1,6 @@
 #Run interleaved fastq files through MEGAHIT for assembly
+#Mike Bai
+#July 2022
 
 #Command
 # --12: list of interleaved paired-end libraries (fastq.gz format)
