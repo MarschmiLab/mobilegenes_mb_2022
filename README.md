@@ -1,8 +1,8 @@
 # mobilegenes_mb_2022
 
 ## Are Mobile Genetic Elements More Abundant in Freshwater Particle-Associated Bacterial Communities?
-Michael Bai
-Schmidt Lab
+Michael Bai \
+Schmidt Lab \
 Department of Microbiology, Cornell University
 
 ## Abstract
