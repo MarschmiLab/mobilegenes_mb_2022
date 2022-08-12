@@ -1,4 +1,6 @@
 # Search sequence database (i.e. Prodigal protein translation files) against a single Pfam alignment
+# Mike Bai
+# August 2022
 
 # Go to directory where Pfam alignment files are stored
 cd /workdir/myb7/data/MuskegonLake/alignments
