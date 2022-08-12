@@ -1,4 +1,6 @@
 #Check integrity of fastq files following transfer
+#Mike Bai
+#July 2022
 
 
 # -c: read md5 sums from file and check them
