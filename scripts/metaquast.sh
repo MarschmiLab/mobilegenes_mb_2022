@@ -1,4 +1,6 @@
-#Run MEGAHIT/spades output files (contigs.fa) through metaQUAST
+#Run MEGAHIT/spades output files (final.contigs.fa) through metaQUAST
+#Mike Bai
+#July 2022
 
 #Command
 # -o: output directory
