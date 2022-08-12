@@ -1,4 +1,6 @@
 #Run contig fasta files through Prodigal gene annotation tool
+#Mike Bai
+#July 2022
 
 # -i: input fasta file
 # -o: output file (gbk)
